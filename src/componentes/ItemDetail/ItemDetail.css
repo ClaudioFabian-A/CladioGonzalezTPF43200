@@ -1,0 +1,12 @@
+.cardIt {
+    text-align: center;
+    border: 1px solid #e3e1e1;
+    margin: 3rem;
+    width: 200px;
+    border: solid 1px ;
+}
+
+.img {
+    width: 150px;
+    object-fit: contain;
+}
