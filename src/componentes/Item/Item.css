@@ -1,5 +1,5 @@
 .itemC {
-    background-color: #bcbd8b;
+    background-color: #e3dbd8;
     border-radius: 10px;
     width: 15rem;
     padding: 1rem;
@@ -7,9 +7,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    
 }
 
 .imgP {
-    width: 150px;
+    width: 15rem;
     object-fit: contain;
+}
+h2, h3, h4, h5, Link {
+    color: black;
+    border-radius: 25% 10%;
+    /* border-style: solid; */
+    /* border-color: red; */
+    border-width: 2px;
+    font-size: 120%;
+}
+h5 {
+text-decoration: none;   
+color: black;
 }

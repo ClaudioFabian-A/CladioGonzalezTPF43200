@@ -1,12 +1,59 @@
-.cardIt {
+/* .cardIt {
     text-align: center;
     border: 1px solid #e3e1e1;
     margin: 3rem;
     width: 200px;
     border: solid 1px ;
+    
+    
 }
 
 .img {
     width: 150px;
     object-fit: contain;
+} */
+/* .contenedorItem {
+    text-align: center;
+    border: 1px solid #e3e1e1;
+    margin: 3rem;
+}
+
+img {
+    width: 50vw;
+} */
+
+.cardIt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 3rem;
+    max-width: 800px;
+    margin: 3rem auto;
+    border: 3px solid black;
+}
+
+.cardIt h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.cardIt h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.cardIt p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.cardIt img {
+    width: 20vw;
+    height: auto;
+    margin-bottom: 2rem;
+    border-radius: 5px;
 }

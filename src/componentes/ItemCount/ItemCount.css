@@ -1,7 +1,8 @@
-button{
+
+.onclick {
     background-color: #c1101a;
     border: none;
-    color: wheat;
+    color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -11,9 +12,18 @@ button{
     cursor: pointer;
 }
 
-p{
-
+p {
     font-size: 24px;
     font-weight: bold;
     margin: 0 10px;
 }
+.boton2{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+    justify-content: space-between;
+    
+}
+
+
