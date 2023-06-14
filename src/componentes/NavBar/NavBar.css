@@ -3,7 +3,7 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 10vh;
-    /* background-color: blanchedalmond; */
+  
     margin: 1rem;
     padding: 0.5rem;
     border: solid 1px black;
@@ -17,7 +17,7 @@ ul{
 ul li {
     display: inline-block;
     margin-left: 10px;
-    /* border: 2px black solid; */
+    
     border-radius: 5rem;
     cursor: pointer;
     background-color: none;
@@ -31,7 +31,7 @@ ul li {
 }
 
 ul :hover {
-    /* background-color: black; */
+    
     color: white;
     background-color: rgb(32, 33, 34);
     font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
